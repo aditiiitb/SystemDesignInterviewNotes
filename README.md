@@ -1,6 +1,6 @@
 <h1>The System Design Interview Notes</h1>
 
-<h2>May 28th 2021<h2>
+<h2>May 28th 2021</h2>
 CAP Theorem - Can only have 2 at the same time out of consistency availability and partition tolerance.
 
 Consistency - what you just wrote you read back i.e. you never read stale data

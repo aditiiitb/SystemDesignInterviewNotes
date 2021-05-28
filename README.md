@@ -15,4 +15,12 @@ If you choose CP then you might get some timeouts, in general reads might be slo
 
 AP is good when you are okay with reads being stale i.e eventual consistency. 
 
+3 types of consistency - weak (dont care if miss some writes forever), eventual, strong.
+
+2 ways to support high availability - failover (have back up server ready to take up load if one goes down or have two servers who divide traffic between themselves) or replication (mainly makes sense for data replication, store the same data in several places so that in case one goes down you can still serve from other)
+
+
+
+
+
 
